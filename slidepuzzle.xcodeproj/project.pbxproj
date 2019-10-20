@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D401B2C817E2E8FE00175A41 /* .DS_Store in Resources */ = {isa = PBXBuildFile; fileRef = D401B2BA17E2E8FE00175A41 /* .DS_Store */; };
 		D401B2C917E2E8FE00175A41 /* eight.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D401B2BB17E2E8FE00175A41 /* eight.jpg */; };
 		D401B2CA17E2E8FE00175A41 /* eleven.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D401B2BC17E2E8FE00175A41 /* eleven.jpg */; };
 		D401B2CB17E2E8FE00175A41 /* five.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D401B2BD17E2E8FE00175A41 /* five.jpg */; };
@@ -37,12 +36,6 @@
 		D460A34C188E4F1D00D42EB8 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D460A34B188E4F1D00D42EB8 /* SystemConfiguration.framework */; };
 		D460A34E188E4F2300D42EB8 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D460A34D188E4F2300D42EB8 /* CoreData.framework */; };
 		D460A350188E547D00D42EB8 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D460A34F188E547D00D42EB8 /* CFNetwork.framework */; };
-		D460A358188E556E00D42EB8 /* GAI.h in Frameworks */ = {isa = PBXBuildFile; fileRef = D460A351188E556E00D42EB8 /* GAI.h */; };
-		D460A359188E556E00D42EB8 /* GAITrackedViewController.h in Frameworks */ = {isa = PBXBuildFile; fileRef = D460A352188E556E00D42EB8 /* GAITrackedViewController.h */; };
-		D460A35A188E556E00D42EB8 /* GAITracker.h in Frameworks */ = {isa = PBXBuildFile; fileRef = D460A353188E556E00D42EB8 /* GAITracker.h */; };
-		D460A35B188E556E00D42EB8 /* GAITransaction.h in Frameworks */ = {isa = PBXBuildFile; fileRef = D460A354188E556E00D42EB8 /* GAITransaction.h */; };
-		D460A35C188E556E00D42EB8 /* GAITransactionItem.h in Frameworks */ = {isa = PBXBuildFile; fileRef = D460A355188E556E00D42EB8 /* GAITransactionItem.h */; };
-		D460A35E188E556E00D42EB8 /* libGoogleAnalytics.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D460A357188E556E00D42EB8 /* libGoogleAnalytics.a */; };
 		D49CFF1B1802A8F400B551A8 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D49CFF181802A8F400B551A8 /* FacebookSDK.framework */; };
 		D49CFF1C1802A8F400B551A8 /* FacebookSDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D49CFF191802A8F400B551A8 /* FacebookSDKResources.bundle */; };
 		D49CFF1D1802A8F400B551A8 /* FBUserSettingsViewResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D49CFF1A1802A8F400B551A8 /* FBUserSettingsViewResources.bundle */; };
@@ -98,7 +91,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D401B2BA17E2E8FE00175A41 /* .DS_Store */ = {isa = PBXFileReference; lastKnownFileType = text; path = .DS_Store; sourceTree = "<group>"; };
 		D401B2BB17E2E8FE00175A41 /* eight.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = eight.jpg; sourceTree = "<group>"; };
 		D401B2BC17E2E8FE00175A41 /* eleven.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = eleven.jpg; sourceTree = "<group>"; };
 		D401B2BD17E2E8FE00175A41 /* five.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = five.jpg; sourceTree = "<group>"; };
@@ -129,12 +121,6 @@
 		D460A34B188E4F1D00D42EB8 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		D460A34D188E4F2300D42EB8 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		D460A34F188E547D00D42EB8 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
-		D460A351188E556E00D42EB8 /* GAI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GAI.h; path = ../GoogleAnalyticsiOS_2.0beta4/Library/GAI.h; sourceTree = "<group>"; };
-		D460A352188E556E00D42EB8 /* GAITrackedViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GAITrackedViewController.h; path = ../GoogleAnalyticsiOS_2.0beta4/Library/GAITrackedViewController.h; sourceTree = "<group>"; };
-		D460A353188E556E00D42EB8 /* GAITracker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GAITracker.h; path = ../GoogleAnalyticsiOS_2.0beta4/Library/GAITracker.h; sourceTree = "<group>"; };
-		D460A354188E556E00D42EB8 /* GAITransaction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GAITransaction.h; path = ../GoogleAnalyticsiOS_2.0beta4/Library/GAITransaction.h; sourceTree = "<group>"; };
-		D460A355188E556E00D42EB8 /* GAITransactionItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GAITransactionItem.h; path = ../GoogleAnalyticsiOS_2.0beta4/Library/GAITransactionItem.h; sourceTree = "<group>"; };
-		D460A357188E556E00D42EB8 /* libGoogleAnalytics.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGoogleAnalytics.a; path = ../GoogleAnalyticsiOS_2.0beta4/Library/libGoogleAnalytics.a; sourceTree = "<group>"; };
 		D49CFF181802A8F400B551A8 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
 		D49CFF191802A8F400B551A8 /* FacebookSDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = FacebookSDKResources.bundle; sourceTree = "<group>"; };
 		D49CFF1A1802A8F400B551A8 /* FBUserSettingsViewResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = FBUserSettingsViewResources.bundle; sourceTree = "<group>"; };
@@ -212,12 +198,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D460A358188E556E00D42EB8 /* GAI.h in Frameworks */,
-				D460A359188E556E00D42EB8 /* GAITrackedViewController.h in Frameworks */,
-				D460A35A188E556E00D42EB8 /* GAITracker.h in Frameworks */,
-				D460A35B188E556E00D42EB8 /* GAITransaction.h in Frameworks */,
-				D460A35C188E556E00D42EB8 /* GAITransactionItem.h in Frameworks */,
-				D460A35E188E556E00D42EB8 /* libGoogleAnalytics.a in Frameworks */,
 				D460A350188E547D00D42EB8 /* CFNetwork.framework in Frameworks */,
 				D460A34E188E4F2300D42EB8 /* CoreData.framework in Frameworks */,
 				D460A34C188E4F1D00D42EB8 /* SystemConfiguration.framework in Frameworks */,
@@ -256,7 +236,6 @@
 				D40603D817E833DF00DB9D94 /* twelve1.jpg */,
 				D40603D917E833DF00DB9D94 /* two1.jpg */,
 				D4FF65FA17E719F6001D30AD /* star_std.png */,
-				D401B2BA17E2E8FE00175A41 /* .DS_Store */,
 				D401B2BB17E2E8FE00175A41 /* eight.jpg */,
 				D401B2BC17E2E8FE00175A41 /* eleven.jpg */,
 				D401B2BD17E2E8FE00175A41 /* five.jpg */,
@@ -315,12 +294,6 @@
 		D4F792C217D9A3AE00E7D71D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D460A351188E556E00D42EB8 /* GAI.h */,
-				D460A352188E556E00D42EB8 /* GAITrackedViewController.h */,
-				D460A353188E556E00D42EB8 /* GAITracker.h */,
-				D460A354188E556E00D42EB8 /* GAITransaction.h */,
-				D460A355188E556E00D42EB8 /* GAITransactionItem.h */,
-				D460A357188E556E00D42EB8 /* libGoogleAnalytics.a */,
 				D460A34F188E547D00D42EB8 /* CFNetwork.framework */,
 				D460A34D188E4F2300D42EB8 /* CoreData.framework */,
 				D460A34B188E4F1D00D42EB8 /* SystemConfiguration.framework */,
@@ -477,7 +450,6 @@
 				D4F792D817D9A3AE00E7D71D /* Default@2x.png in Resources */,
 				D4F792DA17D9A3AE00E7D71D /* Default-568h@2x.png in Resources */,
 				D4F792DD17D9A3AF00E7D71D /* MainStoryboard.storyboard in Resources */,
-				D401B2C817E2E8FE00175A41 /* .DS_Store in Resources */,
 				D401B2C917E2E8FE00175A41 /* eight.jpg in Resources */,
 				D401B2CA17E2E8FE00175A41 /* eleven.jpg in Resources */,
 				D401B2CB17E2E8FE00175A41 /* five.jpg in Resources */,
